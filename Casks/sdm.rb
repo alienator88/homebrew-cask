@@ -6,7 +6,8 @@ cask "sdm" do
   name "sdm"
   desc "Strongdm client"
   homepage "https://www.strongdm.com/"
-
+  aliases ["sdm-test"]
+  
   livecheck do
     url "https://app.strongdm.com/releases/desktop/darwin/0.0.0"
     regex(%r{https:.*?/(\h+)/SDM[._-]v?(\d+(?:\.\d+)+)\.universal\.zip}i)

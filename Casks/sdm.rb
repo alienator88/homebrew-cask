@@ -4,9 +4,9 @@ cask "sdm" do
 
   url "https://downloads.strongdm.com/builds/desktop/#{version.csv.first}/darwin/universal/#{version.csv.second}/SDM-#{version.csv.first}.universal.zip"
   name "sdm"
+  name "sdm-test"
   desc "Strongdm client"
   homepage "https://www.strongdm.com/"
-  aliases ["sdm-test"]
   
   livecheck do
     url "https://app.strongdm.com/releases/desktop/darwin/0.0.0"

@@ -1,5 +1,5 @@
 cask "pearcleaner" do
-  version "1.2"
+  version :latest
   sha256 :no_check
 
   url "https://github.com/alienator88/Pearcleaner/releases/download/#{version}/Pearcleaner.zip"
@@ -20,6 +20,6 @@ cask "pearcleaner" do
             launchctl: "com.alienator88.PearcleanerSentinel"
 
   zap trash: [
-    "~/Library/Application Scripts/Pearcleaner",
+    "~/Library/Application Support/Pearcleaner",
   ]
 end

@@ -1,5 +1,5 @@
 cask "pearcleaner" do
-  version 1.2
+  version :latest
   sha256 :no_check
 
   url "https://github.com/alienator88/Pearcleaner"
@@ -9,7 +9,7 @@ cask "pearcleaner" do
 
   livecheck do
     url :url
-    strategy :github_latest
+    strategy :github_releases
   end
 
   depends_on macos: ">= :ventura"

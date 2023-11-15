@@ -2,7 +2,7 @@ cask "pearcleaner" do
   version :latest
   sha256 :no_check
 
-  url "https://github.com/alienator88/Pearcleaner/releases/download/#{version}/Pearcleaner.zip"
+  url "https://github.com/alienator88/Pearcleaner/releases/#{version}/download/Pearcleaner.zip"
   name "Pearcleaner"
   desc "Utility to uninstall apps and clean-up leftover files"
   homepage "https://github.com/alienator88/Pearcleaner"

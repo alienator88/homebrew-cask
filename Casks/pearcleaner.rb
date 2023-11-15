@@ -5,10 +5,11 @@ cask "pearcleaner" do
   url "https://github.com/alienator88/Pearcleaner"
   name "Pearcleaner"
   desc "Utility to uninstall apps and clean-up leftover files"
-  homepage "https://github.com/alienator88/Pearcleaner/releases/latest/download/Pearcleaner.zip"
+  homepage "https://github.com/alienator88/Pearcleaner"
 
   livecheck do
     url :url
+    strategy :github_latest
   end
 
   depends_on macos: ">= :ventura"

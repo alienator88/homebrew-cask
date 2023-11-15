@@ -20,6 +20,6 @@ cask "pearcleaner" do
             launchctl: "com.alienator88.PearcleanerSentinel"
 
   zap trash: [
-    "~/Library/Application Support/Pearcleaner",
+    "~/Library/Application Support/Pearcleaner/",
   ]
 end

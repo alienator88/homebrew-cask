@@ -10,7 +10,7 @@ cask "sentinel" do
 
   depends_on macos: ">= :monterey"
 
-  app "Pearcleaner.app"
+  app "Sentinel.app"
 
   uninstall quit:      "com.alienator88.sentinel"
   

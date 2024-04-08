@@ -1,2 +1,2 @@
 # homebrew-cask
-Homebrew tap repo for testing
+Alin Lupascu(alienator88) custom homebrew repo for apps

@@ -13,7 +13,7 @@ cask "mcbrew" do
 
   app "McBrew.app"
 
-  uninstall quit:      "com.alienator88.McBrew",
+  uninstall quit:      "com.alienator88.McBrew"
 
   zap trash: [
     "~/Library/Application Support/com.alienator88.McBrew",

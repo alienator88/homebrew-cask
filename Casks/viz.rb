@@ -1,5 +1,5 @@
 cask "viz" do
-  version "1.1"
+  version "1.2"
   sha256 :no_check
 
   # Version

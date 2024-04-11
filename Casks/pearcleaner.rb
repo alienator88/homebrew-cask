@@ -1,6 +1,6 @@
 cask "pearcleaner" do
   #version :latest
-  version "3.4.1"
+  version "3.4.2"
   sha256 :no_check
 
   # Latest

@@ -1,4 +1,4 @@
-cask "sentinel" do
+cask "sentinel-app" do
   version "1.4"
   sha256 :no_check
 

@@ -5,7 +5,7 @@ cask "pearcleaner" do
   url "https://github.com/alienator88/Pearcleaner/releases/download/#{version}/Pearcleaner.zip",
       verified: "github.com/alienator88/Pearcleaner/"
   name "Pearcleaner"
-  desc "Utility to cleanly uninstall apps and remove leftover files from old/uninstalled apps"
+  desc "Utility to uninstall apps and remove leftover files from old/uninstalled apps"
   homepage "https://itsalin.com/appInfo/?id=pearcleaner"
 
   livecheck do
@@ -17,10 +17,8 @@ cask "pearcleaner" do
 
   app "Pearcleaner.app"
 
-  uninstall quit:      "com.alienator88.Pearcleaner",
-            launchctl: "com.alienator88.PearcleanerSentinel"
+  uninstall launchctl: "com.alienator88.PearcleanerSentinel",
+            quit:      "com.alienator88.Pearcleaner"
 
-  zap trash: [
-    "~/Library/Application Support/Pearcleaner",
-  ]
+  zap trash: "~/Library/Application Support/Pearcleaner"
 end

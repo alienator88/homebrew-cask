@@ -1,5 +1,5 @@
 cask "sentinel-app" do
-  version "1.8"
+  version "2.0"
   sha256 :no_check
 
   # Version
